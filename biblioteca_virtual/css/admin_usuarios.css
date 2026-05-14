@@ -1,0 +1,55 @@
+/* Contenedor principal para el efecto de tarjeta blanca */
+.admin-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Estilo de la tabla azul */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #0056b3; /* El azul de tu cabecera */
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.table td {
+    padding: 15px 12px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+/* Botones como los de la imagen */
+.btn {
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.btn-info { background-color: #17a2b8; }
+.btn-danger { background-color: #dc3545; }
+.btn-sm { padding: 4px 8px; }
+
+/* El pequeño cuadro gris para el género */
+.badge-rol {
+    background: #e9ecef;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #666;
+}
